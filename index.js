@@ -40,3 +40,12 @@ const handleFirstTab = (e) => {
     }
   });
   
+  const exploreBtn = document.getElementById('exploreBtn');
+
+  exploreBtn.addEventListener('mouseover', function() {
+    this.classList.remove('animate__animated');
+  });
+
+  exploreBtn.addEventListener('mouseout', function() {
+    this.classList.add('animate__animated');
+  });
