@@ -45,7 +45,7 @@
 
     --gutter-huge: 12rem;
     --gutter-medium: 6rem;
-    --gutter-normal: 3rem;
+    --gutter-normal: 4rem;
     --gutter-small-1: 2.5rem;
     --gutter-small: 2rem;
 
@@ -140,7 +140,7 @@ h3 {
 
 h2 {
     font-size: var(--font-size-large);
-    margin-bottom: var(--gutter-medium);
+    margin-bottom: var(--gutter-small);
 }
 
 h2::after {
@@ -149,7 +149,7 @@ h2::after {
     height: 2px;
     width: 10rem;
     background: var(--pink);
-    margin: var(--gutter-small) 0;
+    margin: var(--gutter-normal) 0;
 }
 
 h3 {
@@ -466,13 +466,13 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 30%;
+    flex: 0 0 40%;
 }
 
 .work__list {
     /* list-style-type: square; */
     list-style-position: inside;
-    margin-bottom: var(--gutter-normal);
+    margin-bottom: var(--gutter-small);
 }
 
 .work__code {
@@ -494,14 +494,24 @@ body:not(.user-is-tabbing) a:focus {
     .work__image-box {
         flex: 1;
         margin: 0 0 0 10rem;
+       
     }
 }
 
 @media(max-width: 900px) {
     .work__code {
         height: 4rem;
+        
     }
 }
+.git-image {
+    height: 3rem;
+    margin-top: 5px;
+    
+}
+
+
+
 
 /* --------------------------------------- */
 /* ----- Clients ----- */
@@ -592,6 +602,7 @@ body:not(.user-is-tabbing) a:focus {
 .footer__social-image {
     height: 4rem;
 }
+
 
 .footer__github-buttons {
     display: flex;

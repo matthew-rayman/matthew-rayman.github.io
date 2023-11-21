@@ -19,10 +19,15 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#client" class="nav__link">Projects</a></li>
+          
           <li class="nav__item">
             <a href="#contact" class="nav__link">Contact</a>
           </li>
@@ -35,32 +40,56 @@
           <span>Ye Marn(Rayman)</span>
         </h1>
         <p>A Web Developer based in Mandalay, Myanmar.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
+        <a href="#about" class="btn btn--pink">Explore</a>
       </div>
+      
     </div>
   </header>
 
   <main role="main">
 
-  
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              Hello there! I'm Ye Marn,a <strong>Frontend Web Designer</strong>  with a passion for creating visually appealing and user-friendly interfaces. I've gained experience in frontend development using <strong>React JS</strong> , 
+              and I'm currently delving into backend development with PHP. <br> My goal is to become a <strong>Full-Stack Developer</strong>, seamlessly integrating both frontend and backend technologies to build comprehensive web solutions. Let's code the future together!
+            <p>
+              
+            </p>
+        <a href="tel:+959775597177" class="btn">Contact Me</a>
+          </div>
+
+          <div class="about__photo-container">
+            
+            <img class="about__photo" src="./images/ym-about-photo1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="work" id="work">
       <div class="row">
-        <h2>My Work</h2>
+        <h2>My Skills</h2>
         <div class="work__boxes">
           <div class="work__box">
             <div class="work__text">
-              <h3>My Skills </h3>
-              <p>
-                I'm still learnig about Web Design and now I have learned in
-              </p>
+              <h3>Technical Proficiency</h3>
               <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>React.js</li>
-                <li>Java</li>
-                <li>MySQL</li>
+                <li>HTML, CSS, JavaScript for web development</li>
+                <li><b>React JS</b> for building dynamic user interfaces</li>
+                <li>Java for general-purpose programming</li>
+                <li>MySQL for database design and management</li>
+                <li>Version control with <b>GitHub</b></li>
+               <li>Node Package management <b>NPM</b></li>
+              </ul>
+              
+              <h3>Core Competence</h3>
+              <ul class="work__list">
+                <li>Effective Communication</li>
+                <li>Collaboration and Teamwork</li>
               </ul>
 
               <div class="work__links">
@@ -81,26 +110,50 @@
       </div>
     </section>
 
-    <section class="about" id="about">
+    <section class="client" id="client">
       <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <p>
-              My name is Ye Mamn.
-               I am pleased to introduce myself as a computer science student from the University of Computer Studies, Yangon.
-                However, due to some unforeseen circumstances, I have had to temporarily discontinue my studies. So, I prepared for ITPEC FE Exam and I passed the FE April Exam 2023.
-            </p>
-        <a href="mailto:maungyemamn@gmail.com" class="btn">Contact Me</a>
+        <h2>My Projects</h2>
+        <div class="work__boxes">
+          <div class="work__box">
+            <div class="work__image-box">
+              <h4>These are my projects running on sever and source code on GitHub. </h4>
+              <br>
+              <ul class="work__list">
+                <li>Foodie - Customized Project with React.js using API from <span><a href="https://www.themealdb.com/">www.themealdb.com</a></span></li>
+                <div class="work__links">
+                  <a href="https://foodie-the-meal-api.netlify.app/" target="_blank" class="link__text">
+                    Foodie Project Running On Sever
+                  </a>
+                </div>
+                <div class="work__links">
+                  <a href="https://github.com/matthew-rayman/foodie-themealdb-project.git" target="_blank" class="link__text">
+                   Check Source Code On GitHub<span><img src="./images/github-svgrepo-com.svg" class="git-image" alt="GitHub">
+                    </a></span>       
+                </div>
+                <br>
+                
+                <li>Invoice or Bill Maker using JavaScript and customized design with SASS, CSS pre-processer</li>
+                <div class="work__links">
+                  <a href="https://invoice-bill-maker.netlify.app/" target="_blank" class="link__text">
+                    Invoice Maker Running On Sever
+                  </a>
+                </div>
+                <div class="work__links">
+                  <a href="https://github.com/matthew-rayman/Invoice-Maker.git" target="_blank" class="link__text">
+                   Check Source Code On GitHub<span><img src="./images/github-svgrepo-com.svg" class="git-image" alt="GitHub">
+                    </a></span>
+                </div>
+                <br>
+
+              </ul>
+              
           </div>
 
-          <div class="about__photo-container">
-            
-            <img class="about__photo" src="./images/ym-about-photo1.jpg" alt="" />
-          </div>
         </div>
       </div>
     </section>
+
+    
   </main>
 
 
